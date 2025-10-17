@@ -1,0 +1,24 @@
+{
+  "name": "apple-extension",
+  "version": "1.0.0",
+  "description": "Apple Interview Assistant - Monitor Google Meet interviews",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "postmark": "^3.0.25",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "chrome-extension",
+    "google-meet",
+    "interview",
+    "monitoring"
+  ],
+  "author": "Apple Interview Assistant",
+  "license": "MIT"
+}
